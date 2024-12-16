@@ -12,6 +12,7 @@ erDiagram
     string email
     string phoneNumber
     id asignedEmployee
+    string password
   }
   Order {
     int code PK
@@ -25,11 +26,13 @@ erDiagram
     string name
     string description
     float price
+    string UrlImage
   }
   Employee {
     int code PK
     string name
     string email
+    string password
   }
   ProductOrder {
     int codeProduct PK
